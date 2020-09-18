@@ -1,40 +1,22 @@
-Introduction
----
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, Vue.js preferred. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+# jem
+Documentation
 
-Exercise 1
----
-Build a responsive page based on the designs.
+This is my first time creating web page using Vue so I research and explore first.
+1.) Installation of requirements (NPM, Node, Vue)
+2.) Create the name of the prject basically it will create a folder and subfolder like assests, components, and other files.
+3.) Installing bootsrap
+4.) Copy all the media to assets folder
+5.) Start the code by editing the App.vue, place the header image and centered the text 'Hello Developer!'
+6.) Create the first section for cards, then create a new file in components for cards or products content.
+7.) Import and export everything in App.vue file and make some styles.
+8.) Create a read more button and close button then apply accordion in every cards.
+8.) When everything is good in laptop and pc, I create the styles for mobile and tablet.
+9.) Test everything and apply some transition and effects.
+10.) Send the project. Fork a repo in Github.
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
+Explanation
+The result of ('b' + 'a' + + 'a' + 'a').toLowerCase() is banana is because "+ + a" is like "a '+a'"  and it's a NaN or Not a Number and other caracther is not number and to lowercase it becomes banana.
 
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
 
-##### Assets
-* Desktop banner - http://via.placeholder.com/1920x650
-* Mobile banner - http://via.placeholder.com/600x600
-* Content images - http://via.placeholder.com/400x300
-
-Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
-
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
-
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
-
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
